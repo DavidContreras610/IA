@@ -15,9 +15,9 @@ const routes: Routes = [
     loadChildren: () => import('./survey2/survey2.module').then( m => m.Survey2PageModule)
   },
   {
-    path: 'profile',
-    loadChildren: () => import('./profile/profile.module').then( m => m.ProfilePageModule)
-  }
+    path: 'matchmaking',
+    loadChildren: () => import('./matchmaking/matchmaking.module').then( m => m.MatchmakingPageModule)
+  },
 ];
 @NgModule({
   imports: [
