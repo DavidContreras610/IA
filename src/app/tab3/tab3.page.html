@@ -13,10 +13,13 @@
     </ion-toolbar>
 
   </ion-header>
-  <br><br><br><br><br><br><br><br><br>
-  <input type="text" style="color: black;" placeholder="Username" id="Username" name="Username" value=" " ><br><br><br>
   
+  <!-- <br><br><br><br><br><br><br><br><br> -->
+  <ion-input type="text" style="color: white;" placeholder="Username" id="Username" name="Username" value=" " style="background-color: black;" style="float: right;"></ion-input>
+    <!-- <br><br><br> -->
+
   
+
   <span>
     <ion-button fill = "clear" expand="block" color="dark" (click)="goMessages()">Message Friends</ion-button>
   </span>
@@ -24,7 +27,13 @@
 
 
   <br><br><br><br><br><br>
-  <input type="text" style="color: black;" placeholder="Bio" id="Bio" name="Bio" value=" ">
- 
+  <input type="text" color="black" placeholder="Bio" id="Bio" name="Bio" value=" "  style="background-color: black;"style="float: right;"/>
+
+
+ <span>
+  <ion-button id="card" routerLink="/survey" color="black" style="padding-left: 200px;">update your survey</ion-button>
+  </span>
+
+
+
 </ion-content>
-<!-- <img [src]="item.filepath"/> -->
