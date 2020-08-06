@@ -4,17 +4,17 @@ import { NgModule } from '@angular/core';
 
  import { IonicModule } from '@ionic/angular';
 
- import { MatchmakingRoutingModule } from './matchmaking-routing.module';
+ import { ProfilePageRoutingModule } from './profile-routing.module';
 
- import { Matchmaking } from './matchmaking.page';
+ import { ProfilePage } from './profile.page';
 
  @NgModule({
    imports: [
      CommonModule,
      FormsModule,
      IonicModule,
-     MatchmakingPageRoutingModule
+     ProfilePageRoutingModule
    ],
-   declarations: [Matchmaking]
+   declarations: [ProfilePage]
  })
- export class MatchupPageModule {}
+ export class ProfilePageModule {}
