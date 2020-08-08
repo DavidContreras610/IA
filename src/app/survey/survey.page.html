@@ -13,21 +13,21 @@
 
 <div id= FirstQuestions>
   <ion-label for="Gplay">1. What level are you?</ion-label><br>
-  <ion-input type="text" style="color: black;" placeholder="Type here" id="Gplay" name="Gplay" value=" " ></ion-input>
+  <ion-input type="text"  placeholder="Type here" id="Gplay" name="Gplay" value=" " ></ion-input>
   <br>
   <ion-label for="Gplay2">2. How many wins do you have?</ion-label><br>
-  <ion-input required type="text" style="color: black;" placeholder="Type here" id="Gplay2" name="Gplay2" value=" "></ion-input>
+  <ion-input required type="text"  placeholder="Type here" id="Gplay2" name="Gplay2" value=" "></ion-input>
   <br>
   <ion-label for="Gplay3">3. What kind of teamates do you like?</ion-label><br>
-  <ion-input type="text" style="color: black;" placeholder="Type here" id="Gplay3" name="Gplay3" value=" "></ion-input>
+  <ion-input type="text"  placeholder="Type here" id="Gplay3" name="Gplay3" value=" "></ion-input>
   <br>
   <ion-label for="Gplay4">4. What kind of player are you?</ion-label><br>
-  <ion-input type="text" style="color: black;" placeholder="Type here" id="Gplay4" name="Gplay4" value=" "></ion-input>
+  <ion-input type="text"  placeholder="Type here" id="Gplay4" name="Gplay4" value=" "></ion-input>
   <br>
 </div>
 
-<!-- needs work -->
 <div style="text-align: center;">
-  <ion-button routerlink="/survey2" shape="round" fill="solid" size="large">Next Survey</ion-button>
+  <ion-button   (click)="goChange()" shape="round"  fill="solid" size="large">Find Teammates</ion-button>
 </div>
+
 </ion-content>

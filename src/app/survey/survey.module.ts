@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
  import { IonicModule } from '@ionic/angular';
 
  import { SurveyPageRoutingModule } from './survey-routing.module';
-//  import { RatingComponent } from '../rating/rating.component'
+ import { RatingComponent } from '../rating/rating.component'
  import { SurveyPage } from './survey.page';
 
  @NgModule({
@@ -15,6 +15,6 @@ import { NgModule } from '@angular/core';
      IonicModule,
      SurveyPageRoutingModule
    ],
-  //  declarations: [SurveyPage, RatingComponent]
+   declarations: [SurveyPage, RatingComponent]
  })
  export class SurveyPageModule {}

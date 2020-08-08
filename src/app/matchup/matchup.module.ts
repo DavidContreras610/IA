@@ -4,9 +4,9 @@ import { NgModule } from '@angular/core';
 
  import { IonicModule } from '@ionic/angular';
 
- import { MatchupPageRoutingModule } from './matchmaking-routing.module';
+ import { MatchupPageRoutingModule } from './matchup-routing.module';
 
- import { MatchmakingPage } from './matchmaking.page';
+ import { MatchupPage } from './matchup.page';
 
  @NgModule({
    imports: [
@@ -15,6 +15,6 @@ import { NgModule } from '@angular/core';
      IonicModule,
      MatchupPageRoutingModule
    ],
-   declarations: [MatchmakingPage]
+   declarations: [MatchupPage]
  })
  export class MatchupPageModule {}

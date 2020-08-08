@@ -1,31 +1,47 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Suggestions
+      Matchmaking
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Suggestions</ion-title>
-    </ion-toolbar>
-  </ion-header>
+   <!-- Card template for each user that you match up with -->
+   <ion-card>
+    <!-- Row includes profile and name info -->
+    <ion-row>
+      <!-- Profile pic-->
+      <ion-col>
 
-  <app-explore-container name="Suggestions"></app-explore-container>
-  
-  <button id="card" routerLink="/survey" style="background-color: black;">
-    <ion-card>
-    <ion-card-header>
-      <ion-card-subtitle>Survey</ion-card-subtitle>
-      <ion-card-title>please take this short survey</ion-card-title>
-    </ion-card-header>
-  
-    <ion-card-content>
-      Please take this survey so we could determine which teamate would fit your criteria.
-    </ion-card-content>
+      </ion-col>
+      <!-- Name , Username, Rating  -->
+      <ion-col>
+        <ion-text>David</ion-text>
+        <br>
+        <ion-text style="font-size: small;">Simpinator</ion-text>
+        <br><br>
+        <app-rating></app-rating>
+      </ion-col>
+      <!-- Row includes similar games text and game cards-->
+    </ion-row>
+    <ion-row>
+      <ion-col style="width: min-content;">
+        <ion-text>Similar games:</ion-text>
+      </ion-col>
+
+      <ion-col>
+        <span>
+        <ion-card class="similarGames"  color="primary" style="width: fit-content;">
+          Apex Legends
+        </ion-card>
+        <ion-card  class="similarGames" color="primary" style="width: fit-content;">
+          Minecraft
+        </ion-card>
+      </span>
+      </ion-col>
+    </ion-row>
+
   </ion-card>
-  </button>
+  
 
-</ion-content>
