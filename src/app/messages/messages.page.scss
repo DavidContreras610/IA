@@ -1,8 +1,8 @@
 
 /* Chat containers */
 .container {
-  border: 2px solid #dedede;
-  background-color: black;
+  border: 2px solid grey;
+  background-color: blue;
   border-radius: 5px;
   padding: 10px;
   margin: 10px 0;
@@ -58,3 +58,7 @@
 //     position: fixed;
 //     bottom: 10px;
 // }
+
+#fakeMessage{
+    visibility: hidden;
+}

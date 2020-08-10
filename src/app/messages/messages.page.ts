@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MessagesPage implements OnInit {
 
+  textInfo: string
   constructor() { }
 
   ngOnInit() {
   }
-
+sendMessage(){
+  var fakeMess = document.getElementById("fakeMessage")
+  fakeMess.style.visibility = "visible";
+   }
 }

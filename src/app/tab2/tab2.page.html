@@ -15,3 +15,43 @@
 
   <app-explore-container name="Messages"></app-explore-container>
 </ion-content>
+
+<button>
+<ion-content [fullscreen]="true">
+   
+   <ion-card>
+   
+    <ion-row>
+      
+      <ion-col>
+
+      </ion-col>
+    
+      <ion-col>
+        <ion-text>David</ion-text>
+        <br>
+        <ion-text style="font-size: small;">Simpinator</ion-text>
+        <br><br>
+        <app-rating></app-rating>
+      </ion-col>
+
+    </ion-row>
+    <ion-row>
+      <ion-col style="width: min-content;">
+        <ion-text>Similar games:</ion-text>
+      </ion-col>
+
+      <ion-col>
+        <span>
+        <ion-card class="similarGames"  color="primary" style="width: fit-content;">
+          Apex Legends
+        </ion-card>
+        <ion-card  class="similarGames" color="primary" style="width: fit-content;">
+          Minecraft
+        </ion-card>
+      </span>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+</button>
