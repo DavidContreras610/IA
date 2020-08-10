@@ -16,7 +16,7 @@ import { Router } from '@angular/router';
 
    }
 
-   goChange() {this.router.navigate(['/tabs/tab1']) 
+   goChange() {this.router.navigateByUrl('/members'); 
 }
 
    
