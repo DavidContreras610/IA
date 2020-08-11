@@ -7,41 +7,127 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-   <!-- Card template for each user that you match up with -->
-   <ion-card>
-    <!-- Row includes profile and name info -->
-    <ion-row>
-      <!-- Profile pic-->
-      <ion-col>
+  <button routerLink = "/profile" id = "buttonOne">
+    <ion-card class = "boxOne">
+      <ion-row>
+        <ion-col>
+          <ion-text>David</ion-text>
+          <br>
+            <ion-text style="font-size:small">Simpinator</ion-text>
+          <br><br>
+        </ion-col>
+          <ion-text>Similar games:</ion-text>
+          <span>
+            <ion-card class="similarGames”" color="primary" >
+              Apex Legends
+            </ion-card>
+            <ion-card  class="similarGames" color="primary" >
+              Minecraft
+            </ion-card>
+        </span>
+      </ion-row>
+    </ion-card>
+  </button>
+</ion-content>
 
-      </ion-col>
-      <!-- Name , Username, Rating  -->
-      <ion-col>
-        <ion-text>David</ion-text>
+<ion-card class = "boxTwo">
+  <ion-row>
+     <ion-col>
+        <ion-text>Micheal:</ion-text>
         <br>
-        <ion-text style="font-size: small;">Simpinator</ion-text>
+          <ion-text style="font-size:small">XxkillerxX</ion-text>
         <br><br>
-        <app-rating></app-rating>
       </ion-col>
-      <!-- Row includes similar games text and game cards-->
-    </ion-row>
-    <ion-row>
-      <ion-col style="width: min-content;">
-        <ion-text>Similar games:</ion-text>
-      </ion-col>
-
-      <ion-col>
+      <ion-text>Similar games:</ion-text>
         <span>
-        <ion-card class="similarGames"  color="primary" style="width: fit-content;">
-          Apex Legends
-        </ion-card>
-        <ion-card  class="similarGames" color="primary" style="width: fit-content;">
-          Minecraft
-        </ion-card>
+          <ion-card class="similarGames”" color="primary" >
+            Apex Legends
+          </ion-card>
+          <ion-card  class="similarGames" color="primary" >
+            Fortnite
+          </ion-card>
       </span>
+  </ion-row>
+</ion-card>
+
+<ion-card class = "boxThree">
+  <ion-row>
+     <ion-col>
+        <ion-text>Mikey:</ion-text>
+        <br>
+          <ion-text style="font-size:small">Deadman2412</ion-text>
+        <br><br>
       </ion-col>
-    </ion-row>
+      <ion-text>Similar games:</ion-text>
+        <span>
+          <ion-card class="similarGames”" color="primary" >
+            Minecraft
+          </ion-card>
+          <ion-card  class="similarGames" color="primary" >
+            Fortnite
+          </ion-card>
+      </span>
+  </ion-row>
+</ion-card>
 
-  </ion-card>
-  
 
+
+<ion-card class = "boxFour">
+  <ion-row>
+     <ion-col>
+        <ion-text>Bernie:</ion-text>
+        <br>
+          <ion-text style="font-size:small">Bernman</ion-text>
+        <br><br>
+      </ion-col>
+      <ion-text>Similar games:</ion-text>
+        <span>
+          <ion-card class="similarGames”" color="primary" >
+            Modern Warfare
+          </ion-card>
+          <ion-card  class="similarGames" color="primary" >
+            Minecraft
+          </ion-card>
+      </span>
+  </ion-row>
+</ion-card>
+
+<ion-card class = "boxFive">
+  <ion-row>
+     <ion-col>
+        <ion-text>Amy:</ion-text>
+        <br>
+          <ion-text style="font-size:small">AnimeLover</ion-text>
+        <br><br>
+      </ion-col>
+      <ion-text>Similar games:</ion-text>
+        <span>
+          <ion-card class="similarGames”" color="primary" >
+            Modern Warfare
+          </ion-card>
+          <ion-card  class="similarGames" color="primary" >
+            Minecraft
+          </ion-card>
+      </span>
+  </ion-row>
+</ion-card>
+
+<ion-card class = "boxsix">
+  <ion-row>
+     <ion-col>
+        <ion-text>David:</ion-text>
+        <br>
+          <ion-text style="font-size:small">Default</ion-text>
+        <br><br>
+      </ion-col>
+      <ion-text>Similar games:</ion-text>
+        <span>
+          <ion-card class="similarGames”" color="primary" >
+            Modern Warfare
+          </ion-card>
+          <ion-card  class="similarGames" color="primary" >
+            Fallout 76
+          </ion-card>
+      </span>
+  </ion-row>
+</ion-card>

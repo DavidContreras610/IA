@@ -6,54 +6,29 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Messages</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Messages"></app-explore-container>
+
+
+<ion-content [fullscreen]="true">
+  <button routerLink = "/messages" id = "buttonOne">
+    <ion-card class = "boxOne">
+      <ion-row>
+        <ion-col>
+          <ion-text>David</ion-text>
+          <br>
+            <ion-text style="font-size:small">Simpinator</ion-text>
+          <br><br>
+        </ion-col>
+          <ion-text>Similar games:</ion-text>
+          <span>
+            <ion-card class="similarGames”" color="primary" >
+              Apex Legends
+            </ion-card>
+            <ion-card  class="similarGames" color="primary" >
+              Minecraft
+            </ion-card>
+        </span>
+      </ion-row>
+    </ion-card>
+  </button>
 </ion-content>
-
-
-<ion-content [fullscreen]="true">
-
-
-  <button routerLink = "/messages">
-   <ion-card >
-   
-    <ion-row>
-      
-      <ion-col>
-
-      </ion-col>
-    
-      <ion-col>
-        <ion-text>David</ion-text>
-        <br>
-        <ion-text style="font-size: small;">Simpinator</ion-text>
-        <br><br>
-        <app-rating></app-rating>
-      </ion-col>
-
-    </ion-row>
-    <ion-row>
-      <ion-col style="width: min-content;">
-        <ion-text>Similar games:</ion-text>
-      </ion-col>
-
-      <ion-col>
-        <span>
-        <ion-card class="similarGames"  color="primary" style="width: fit-content;">
-          Apex Legends
-        </ion-card>
-        <ion-card  class="similarGames" color="primary" style="width: fit-content;">
-          Minecraft
-        </ion-card>
-      </span>
-      </ion-col>
-    </ion-row>
-
-  </ion-card>
-</button>
